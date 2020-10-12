@@ -1,12 +1,14 @@
 #include<iostream>
+#include<deque>
+#include<algorithm>
 #include<cstdio>
 
 using namespace std;
 
+/* Problem #1208 Flatten */
 int main(int argc, char** argv)
 {
 	int test_case;
-	int T;
 	/*
 	   아래의 freopen 함수는 input.txt 를 read only 형식으로 연 후,
 	   앞으로 표준 입력(키보드) 대신 input.txt 파일로부터 읽어오겠다는 의미의 코드입니다.
@@ -17,13 +19,36 @@ int main(int argc, char** argv)
 	   단, 채점을 위해 코드를 제출하실 때에는 반드시 freopen 함수를 지우거나 주석 처리 하셔야 합니다.
 	*/
 	freopen("input.txt", "r", stdin);
-	cin >> T;
 	/*
 	   여러 개의 테스트 케이스가 주어지므로, 각각을 처리합니다.
 	*/
-	for (test_case = 1; test_case <= T; ++test_case)
+	for (test_case = 1; test_case <= 10; ++test_case)
 	{
-
+		int limit, h;
+		deque<int> heights;
+		cin >> limit;
+		for (int i = 0; i < 100; i++) {
+			cin >> h;
+			heights.push_back(h);
+		}
+		sort(heights.begin(), heights.end()); // 오름차순으로 정렬
+		bool sort_needed = false;
+		int highest, lowest;
+		for (int i = 0; i < limit; i++) {
+			highest = heights.back();
+			lowest = heights.front();
+			if (highest - lowest <= 1)
+				break;
+			heights.pop_front();
+			heights.pop_back();
+			if (highest - 1 < heights.back() || lowest + 1 > heights.front())
+				sort_needed = true;
+			heights.push_back(highest - 1);
+			heights.push_front(lowest + 1);
+			if (sort_needed)
+				sort(heights.begin(), heights.end());
+		}
+		cout << "#" << test_case << " " << heights.back() - heights.front() << endl;
 	}
 	return 0;//정상종료시 반드시 0을 리턴해야합니다.
 }
