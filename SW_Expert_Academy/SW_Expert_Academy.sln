@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3431_Exercise_Management", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1208_Flatten", "Difficulty3\1208_Flatten\1208_Flatten.vcxproj", "{22DFD439-1D9E-4114-B831-12E0DA2AED0E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1206_View", "Difficulty3\1206_View\1206_View.vcxproj", "{0D0C0BCA-BF81-4CEB-B52B-7401542A8206}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -43,6 +45,14 @@ Global
 		{22DFD439-1D9E-4114-B831-12E0DA2AED0E}.Release|x64.Build.0 = Release|x64
 		{22DFD439-1D9E-4114-B831-12E0DA2AED0E}.Release|x86.ActiveCfg = Release|Win32
 		{22DFD439-1D9E-4114-B831-12E0DA2AED0E}.Release|x86.Build.0 = Release|Win32
+		{0D0C0BCA-BF81-4CEB-B52B-7401542A8206}.Debug|x64.ActiveCfg = Debug|x64
+		{0D0C0BCA-BF81-4CEB-B52B-7401542A8206}.Debug|x64.Build.0 = Debug|x64
+		{0D0C0BCA-BF81-4CEB-B52B-7401542A8206}.Debug|x86.ActiveCfg = Debug|Win32
+		{0D0C0BCA-BF81-4CEB-B52B-7401542A8206}.Debug|x86.Build.0 = Debug|Win32
+		{0D0C0BCA-BF81-4CEB-B52B-7401542A8206}.Release|x64.ActiveCfg = Release|x64
+		{0D0C0BCA-BF81-4CEB-B52B-7401542A8206}.Release|x64.Build.0 = Release|x64
+		{0D0C0BCA-BF81-4CEB-B52B-7401542A8206}.Release|x86.ActiveCfg = Release|Win32
+		{0D0C0BCA-BF81-4CEB-B52B-7401542A8206}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +60,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{EE6AA6FF-D77A-4987-BD70-17A9920702F9} = {6BB98320-2F2D-4E77-9E3F-2918D549E18D}
 		{22DFD439-1D9E-4114-B831-12E0DA2AED0E} = {6BB98320-2F2D-4E77-9E3F-2918D549E18D}
+		{0D0C0BCA-BF81-4CEB-B52B-7401542A8206} = {6BB98320-2F2D-4E77-9E3F-2918D549E18D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EA850D1C-E1B8-4CB0-BFF4-A7E18DCD4AFA}
