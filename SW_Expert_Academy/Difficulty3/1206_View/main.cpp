@@ -1,8 +1,10 @@
 #include<iostream>
+#include<algorithm>
 #include<cstdio>
 
 using namespace std;
 
+/* Problem #1206 View */
 int main(int argc, char** argv)
 {
 	int test_case;
@@ -21,9 +23,20 @@ int main(int argc, char** argv)
 	*/
 	for (test_case = 1; test_case <= 10; ++test_case)
 	{
+		int width, sum = 0, cur;
+		short height[1000];
+		cin >> width;
+		for (int i = 0; i < width; i++)
+			cin >> height[i];
 		/* (해당 칸에 지어진 건물에서 조망권을 확보한 세대 수)
 		* = (해당 칸에 지어진 건물 층수)
 		*	- (왼쪽 두 칸, 오른쪽 두 칸에 지어진 건물 중 가장 높은 건물의 층수) */
+		for (int i = 2; i < width - 2; i++) {
+			cur = height[i] - max(max(height[i - 2], height[i - 1]), max(height[i + 1], height[i + 2]));
+			if (cur > 0)
+				sum += cur;
+		}
+		cout << "#" << test_case << " " << sum << endl;
 	}
 	return 0;//정상종료시 반드시 0을 리턴해야합니다.
 }
