@@ -2,7 +2,7 @@
 
 using namespace std;
 
-/* Problem #2027 */
+/* Problem #2027 대각선 출력하기 */
 int main(int argc, char** argv)
 {
     for (int i = 0; i < 5; i++) {
