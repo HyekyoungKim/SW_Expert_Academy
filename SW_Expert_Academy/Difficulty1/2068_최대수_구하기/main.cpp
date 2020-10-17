@@ -1,10 +1,10 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<vector>
 #include<algorithm>
 
 using namespace std;
 
-/* Problem #2068 ÃÖ´ë¼ö ±¸ÇÏ±â */
+/* Problem #2068 ìµœëŒ€ìˆ˜ êµ¬í•˜ê¸° */
 int main(int argc, char** argv)
 {
 	int test_case;
