@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1288_새로운_불면증_�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1928_Base64_Decoder", "Difficulty2\1928_Base64_Decoder\1928_Base64_Decoder.vcxproj", "{03B186AD-396B-493C-AC27-16A32052632C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1940_가랏_RC카", "Difficulty2\1940_가랏_RC카\1940_가랏_RC카.vcxproj", "{9FD07B66-9C63-47AF-A973-A63C2552EEC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -147,6 +149,14 @@ Global
 		{03B186AD-396B-493C-AC27-16A32052632C}.Release|x64.Build.0 = Release|x64
 		{03B186AD-396B-493C-AC27-16A32052632C}.Release|x86.ActiveCfg = Release|Win32
 		{03B186AD-396B-493C-AC27-16A32052632C}.Release|x86.Build.0 = Release|Win32
+		{9FD07B66-9C63-47AF-A973-A63C2552EEC1}.Debug|x64.ActiveCfg = Debug|x64
+		{9FD07B66-9C63-47AF-A973-A63C2552EEC1}.Debug|x64.Build.0 = Debug|x64
+		{9FD07B66-9C63-47AF-A973-A63C2552EEC1}.Debug|x86.ActiveCfg = Debug|Win32
+		{9FD07B66-9C63-47AF-A973-A63C2552EEC1}.Debug|x86.Build.0 = Debug|Win32
+		{9FD07B66-9C63-47AF-A973-A63C2552EEC1}.Release|x64.ActiveCfg = Release|x64
+		{9FD07B66-9C63-47AF-A973-A63C2552EEC1}.Release|x64.Build.0 = Release|x64
+		{9FD07B66-9C63-47AF-A973-A63C2552EEC1}.Release|x86.ActiveCfg = Release|Win32
+		{9FD07B66-9C63-47AF-A973-A63C2552EEC1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -164,6 +174,7 @@ Global
 		{4F16757F-84C6-4AD5-8EBE-1CBD0264FDB6} = {DBA11D9C-BAD2-4602-9BFE-DF918360AABF}
 		{4352ABEB-B82C-4C46-9C50-7390FFB37E20} = {0989D2D7-2F2A-45F2-8D68-F1E820231803}
 		{03B186AD-396B-493C-AC27-16A32052632C} = {0989D2D7-2F2A-45F2-8D68-F1E820231803}
+		{9FD07B66-9C63-47AF-A973-A63C2552EEC1} = {0989D2D7-2F2A-45F2-8D68-F1E820231803}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EA850D1C-E1B8-4CB0-BFF4-A7E18DCD4AFA}
