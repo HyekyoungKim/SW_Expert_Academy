@@ -43,6 +43,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1946_간단한_압축_풀�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1948_날짜_계산기", "Difficulty2\1948_날짜_계산기\1948_날짜_계산기.vcxproj", "{5E3CFCFC-7D56-48E4-A8C4-904473B97989}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1954_달팽이_숫자", "Difficulty2\1954_달팽이_숫자\1954_달팽이_숫자.vcxproj", "{DB3D6199-8F5A-434E-9E0F-D6728033EADF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -187,6 +189,14 @@ Global
 		{5E3CFCFC-7D56-48E4-A8C4-904473B97989}.Release|x64.Build.0 = Release|x64
 		{5E3CFCFC-7D56-48E4-A8C4-904473B97989}.Release|x86.ActiveCfg = Release|Win32
 		{5E3CFCFC-7D56-48E4-A8C4-904473B97989}.Release|x86.Build.0 = Release|Win32
+		{DB3D6199-8F5A-434E-9E0F-D6728033EADF}.Debug|x64.ActiveCfg = Debug|x64
+		{DB3D6199-8F5A-434E-9E0F-D6728033EADF}.Debug|x64.Build.0 = Debug|x64
+		{DB3D6199-8F5A-434E-9E0F-D6728033EADF}.Debug|x86.ActiveCfg = Debug|Win32
+		{DB3D6199-8F5A-434E-9E0F-D6728033EADF}.Debug|x86.Build.0 = Debug|Win32
+		{DB3D6199-8F5A-434E-9E0F-D6728033EADF}.Release|x64.ActiveCfg = Release|x64
+		{DB3D6199-8F5A-434E-9E0F-D6728033EADF}.Release|x64.Build.0 = Release|x64
+		{DB3D6199-8F5A-434E-9E0F-D6728033EADF}.Release|x86.ActiveCfg = Release|Win32
+		{DB3D6199-8F5A-434E-9E0F-D6728033EADF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -208,6 +218,7 @@ Global
 		{52F2F1BB-8D2B-4C78-B9A0-CF048A1E8445} = {0989D2D7-2F2A-45F2-8D68-F1E820231803}
 		{34D7D38E-DC35-42D7-B8E8-CB0662CB6522} = {0989D2D7-2F2A-45F2-8D68-F1E820231803}
 		{5E3CFCFC-7D56-48E4-A8C4-904473B97989} = {0989D2D7-2F2A-45F2-8D68-F1E820231803}
+		{DB3D6199-8F5A-434E-9E0F-D6728033EADF} = {0989D2D7-2F2A-45F2-8D68-F1E820231803}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EA850D1C-E1B8-4CB0-BFF4-A7E18DCD4AFA}
