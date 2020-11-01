@@ -1,9 +1,9 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<cstdio>
 
 using namespace std;
 
-/* Problem #1959 µÎ °³ÀÇ ¼ıÀÚ¿­ */
+/* Problem #1959 ë‘ ê°œì˜ ìˆ«ìì—´ */
 int main(int argc, char** argv)
 {
 	int test_case;
