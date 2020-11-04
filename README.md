@@ -1,4 +1,4 @@
-# SW_Expert_Academy
+# SW Expert Academy
 
 프로그래밍 역량 강화를 위해 SW Expert Academy( https://swexpertacademy.com/ )의 연습문제를 C++로 풀어본다. 가장 낮은 난이도인 D1 Problem부터 차례로 풀고 있으며, 하루 한 commit 이상 수행하는 것을 목표로 한다.
 
