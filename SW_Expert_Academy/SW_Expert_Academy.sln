@@ -63,6 +63,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1983_조교의_성적_매�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1984_중간_평균값_구하기", "Difficulty2\1984_중간_평균값_구하기\1984_중간_평균값_구하기.vcxproj", "{17B7E7F7-100B-49D0-BD98-4B26699A3CE3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1986_지그재그_숫자", "Difficulty2\1986_지그재그_숫자\1986_지그재그_숫자.vcxproj", "{572734CA-D502-4B3E-A819-EFB387F204FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -287,6 +289,14 @@ Global
 		{17B7E7F7-100B-49D0-BD98-4B26699A3CE3}.Release|x64.Build.0 = Release|x64
 		{17B7E7F7-100B-49D0-BD98-4B26699A3CE3}.Release|x86.ActiveCfg = Release|Win32
 		{17B7E7F7-100B-49D0-BD98-4B26699A3CE3}.Release|x86.Build.0 = Release|Win32
+		{572734CA-D502-4B3E-A819-EFB387F204FF}.Debug|x64.ActiveCfg = Debug|x64
+		{572734CA-D502-4B3E-A819-EFB387F204FF}.Debug|x64.Build.0 = Debug|x64
+		{572734CA-D502-4B3E-A819-EFB387F204FF}.Debug|x86.ActiveCfg = Debug|Win32
+		{572734CA-D502-4B3E-A819-EFB387F204FF}.Debug|x86.Build.0 = Debug|Win32
+		{572734CA-D502-4B3E-A819-EFB387F204FF}.Release|x64.ActiveCfg = Release|x64
+		{572734CA-D502-4B3E-A819-EFB387F204FF}.Release|x64.Build.0 = Release|x64
+		{572734CA-D502-4B3E-A819-EFB387F204FF}.Release|x86.ActiveCfg = Release|Win32
+		{572734CA-D502-4B3E-A819-EFB387F204FF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -318,6 +328,7 @@ Global
 		{B044C07F-8E62-42B8-9A98-9EAEC962B2F6} = {0989D2D7-2F2A-45F2-8D68-F1E820231803}
 		{BC703956-B41B-4E2A-AD9C-765CE21802C5} = {0989D2D7-2F2A-45F2-8D68-F1E820231803}
 		{17B7E7F7-100B-49D0-BD98-4B26699A3CE3} = {0989D2D7-2F2A-45F2-8D68-F1E820231803}
+		{572734CA-D502-4B3E-A819-EFB387F204FF} = {0989D2D7-2F2A-45F2-8D68-F1E820231803}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EA850D1C-E1B8-4CB0-BFF4-A7E18DCD4AFA}
