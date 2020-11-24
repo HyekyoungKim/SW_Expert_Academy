@@ -69,6 +69,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1989_초심자의_회문_�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2001_파리_퇴치", "Difficulty2\2001_파리_퇴치\2001_파리_퇴치.vcxproj", "{20F0C9F9-2F6D-4AE9-B5F1-276A08FFABC5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2005_파스칼의_삼각형", "Difficulty2\2005_파스칼의_삼각형\2005_파스칼의_삼각형.vcxproj", "{451C8A6C-8C0B-4BBA-90CB-63736EC9C395}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -317,6 +319,14 @@ Global
 		{20F0C9F9-2F6D-4AE9-B5F1-276A08FFABC5}.Release|x64.Build.0 = Release|x64
 		{20F0C9F9-2F6D-4AE9-B5F1-276A08FFABC5}.Release|x86.ActiveCfg = Release|Win32
 		{20F0C9F9-2F6D-4AE9-B5F1-276A08FFABC5}.Release|x86.Build.0 = Release|Win32
+		{451C8A6C-8C0B-4BBA-90CB-63736EC9C395}.Debug|x64.ActiveCfg = Debug|x64
+		{451C8A6C-8C0B-4BBA-90CB-63736EC9C395}.Debug|x64.Build.0 = Debug|x64
+		{451C8A6C-8C0B-4BBA-90CB-63736EC9C395}.Debug|x86.ActiveCfg = Debug|Win32
+		{451C8A6C-8C0B-4BBA-90CB-63736EC9C395}.Debug|x86.Build.0 = Debug|Win32
+		{451C8A6C-8C0B-4BBA-90CB-63736EC9C395}.Release|x64.ActiveCfg = Release|x64
+		{451C8A6C-8C0B-4BBA-90CB-63736EC9C395}.Release|x64.Build.0 = Release|x64
+		{451C8A6C-8C0B-4BBA-90CB-63736EC9C395}.Release|x86.ActiveCfg = Release|Win32
+		{451C8A6C-8C0B-4BBA-90CB-63736EC9C395}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -351,6 +361,7 @@ Global
 		{572734CA-D502-4B3E-A819-EFB387F204FF} = {0989D2D7-2F2A-45F2-8D68-F1E820231803}
 		{0EB9C53C-BF61-4973-B9BD-6BAF388245F9} = {0989D2D7-2F2A-45F2-8D68-F1E820231803}
 		{20F0C9F9-2F6D-4AE9-B5F1-276A08FFABC5} = {0989D2D7-2F2A-45F2-8D68-F1E820231803}
+		{451C8A6C-8C0B-4BBA-90CB-63736EC9C395} = {0989D2D7-2F2A-45F2-8D68-F1E820231803}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EA850D1C-E1B8-4CB0-BFF4-A7E18DCD4AFA}
