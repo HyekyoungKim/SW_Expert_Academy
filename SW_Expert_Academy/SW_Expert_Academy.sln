@@ -75,6 +75,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2007_패턴_마디의_길�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1926_간단한_369게임", "Difficulty2\1926_간단한_369게임\1926_간단한_369게임.vcxproj", "{D0AE79A8-14D4-490E-804A-2C733761F5EA}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "1859_백만_장자_프로젝트", "Difficulty2\1859_백만_장자_프로젝트\1859_백만_장자_프로젝트.vcxproj", "{08FAB4B2-FFD4-48B7-BC0F-73B71918B543}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -347,6 +349,14 @@ Global
 		{D0AE79A8-14D4-490E-804A-2C733761F5EA}.Release|x64.Build.0 = Release|x64
 		{D0AE79A8-14D4-490E-804A-2C733761F5EA}.Release|x86.ActiveCfg = Release|Win32
 		{D0AE79A8-14D4-490E-804A-2C733761F5EA}.Release|x86.Build.0 = Release|Win32
+		{08FAB4B2-FFD4-48B7-BC0F-73B71918B543}.Debug|x64.ActiveCfg = Debug|x64
+		{08FAB4B2-FFD4-48B7-BC0F-73B71918B543}.Debug|x64.Build.0 = Debug|x64
+		{08FAB4B2-FFD4-48B7-BC0F-73B71918B543}.Debug|x86.ActiveCfg = Debug|Win32
+		{08FAB4B2-FFD4-48B7-BC0F-73B71918B543}.Debug|x86.Build.0 = Debug|Win32
+		{08FAB4B2-FFD4-48B7-BC0F-73B71918B543}.Release|x64.ActiveCfg = Release|x64
+		{08FAB4B2-FFD4-48B7-BC0F-73B71918B543}.Release|x64.Build.0 = Release|x64
+		{08FAB4B2-FFD4-48B7-BC0F-73B71918B543}.Release|x86.ActiveCfg = Release|Win32
+		{08FAB4B2-FFD4-48B7-BC0F-73B71918B543}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -384,6 +394,7 @@ Global
 		{451C8A6C-8C0B-4BBA-90CB-63736EC9C395} = {0989D2D7-2F2A-45F2-8D68-F1E820231803}
 		{9EFCD3EF-4FE3-442C-8D9D-C8303138B26A} = {0989D2D7-2F2A-45F2-8D68-F1E820231803}
 		{D0AE79A8-14D4-490E-804A-2C733761F5EA} = {0989D2D7-2F2A-45F2-8D68-F1E820231803}
+		{08FAB4B2-FFD4-48B7-BC0F-73B71918B543} = {0989D2D7-2F2A-45F2-8D68-F1E820231803}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EA850D1C-E1B8-4CB0-BFF4-A7E18DCD4AFA}
